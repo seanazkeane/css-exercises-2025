@@ -20,7 +20,24 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 15px;
+  display: flex;
+  gap: 15px
 }
+
+
+.modal-right-top {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bolder;
+  font-size: larger;
+  padding-bottom: 10px;
+}
+
+.text {
+  padding-bottom: 15px;
+}
+
 
 .icon {
   color: royalblue;
